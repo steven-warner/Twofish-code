@@ -201,7 +201,7 @@ void makeKey(unsigned long long int &key){
     string inputTextForHash = "";
 
     // makes random value
-    randomValue = rand() % 0xffffffffffffffffffff;
+    randomValue = rand() % 0xff;
 
     // mixes random value
     for (int i = 0;i < 1000;i++){
